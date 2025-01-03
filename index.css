@@ -1,3 +1,41 @@
 body {
+
     margin: 0;
+    background: #1C1C1C;
+    color:#fff;
+    font-family: "Karla", serif;
+
+}
+
+.container {
+    background: #1F2937;
+    margin: 0 auto;
+   margin-top: 10%;
+    width:80%;
+}
+span {
+    color: #10B981;;
+}
+button{
+    background: #10B981;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+
+}
+button:hover {
+    cursor: pointer;
+      background: #0d9d6d;
+}
+
+#password-container {
+    display: flex;
+}
+#passwordOne,
+#passwordTwo {
+    background: #273549;
+    height: 20px;
+    width:100px;
+
 }

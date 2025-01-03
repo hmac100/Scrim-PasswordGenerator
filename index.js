@@ -2,5 +2,8 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 
 
+let button = document.getElementById('button')
 
-
+button.addEventListener("click", function() {
+  console.log("click");
+})
