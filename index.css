@@ -8,15 +8,18 @@ body {
 }
 
 .container {
+    padding: 50px 50px;
     background: #1F2937;
     margin: 0 auto;
    margin-top: 10%;
-    width:80%;
+   width:600px;
+    max-width:80%;
 }
 span {
     color: #10B981;;
 }
 button{
+    margin: 20px 0;
     background: #10B981;
     color: #fff;
     border: none;
@@ -31,11 +34,15 @@ button:hover {
 
 #password-container {
     display: flex;
+    gap: 20px;
 }
-#passwordOne,
-#passwordTwo {
+#password-one,
+#password-two {
     background: #273549;
+    /* outline: 1px solid white; */
+    border-radius: 3px;
     height: 20px;
-    width:100px;
+    width:150px;
+    color: #0d9d6d;;
 
 }
